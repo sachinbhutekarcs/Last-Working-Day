@@ -6,13 +6,15 @@ body {
 
 .footer-section {
   background-color: #181b1f;
+  font: "Montserrat:Bold";
 }
 
 h1 {
-  font: "Montserrat:Bold";
+  font-family: "Montserrat", sans-serif;
   size: 3rem;
   line-height: 1.5;
   padding: 3% 15%;
+  font-weight: bold;
 }
 
 p {
@@ -20,41 +22,41 @@ p {
   size: 1rem;
 }
 
-em{
-font-family: "Oxygen", sans-serif;
+em {
+  font-family: "Oxygen", sans-serif;
   size: 0.5rem;
 }
 
-.logos{
-    margin: auto;
-    width: 50%;
-    padding: 2%;
+.logos {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
 }
 
-.card-deck{
-    padding: 3% 15%;
+.card-deck {
+  padding: 3% 15%;
 }
 
-.logo{
-    width: 20%;
+.logo {
+  width: 20%;
 }
 
-#mail{
-    padding-inline: 5%;
+#mail {
+  padding-inline: 5%;
 }
 
-#icons{
-    padding:3% 10%;
-    float: right;
+#icons {
+  padding: 3% 10%;
+  float: right;
 }
 
-.fa-5x{
-    margin: 30%;
+.fa-5x {
+  margin: 30%;
 }
 
-.footer-links{
-    padding: 25% 0% 25%;
-    color: #f5f5f5;
+.footer-links {
+  padding: 25% 0% 25%;
+  color: #f5f5f5;
 }
 
 .carousel-control-prev-icon,
@@ -65,32 +67,32 @@ font-family: "Oxygen", sans-serif;
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
+.carousel-control-next-icon:after {
+  content: ">";
   font-size: 55px;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
   color: black;
 }
 
-.person{
-    width: 30%;
+.person {
+  width: 30%;
 }
 
-#footer{
-    align-items: center;
-    color: #f5f5f5;
+#footer {
+  align-items: center;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
 }
 
-.client-img{
-    width:70%;
+.client-img {
+  width: 70%;
 }
 
-.nav-link{
+.nav-link {
   color: black;
 }
