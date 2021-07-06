@@ -1,0 +1,96 @@
+body {
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-section {
+  background-color: #181b1f;
+}
+
+h1 {
+  font: "Montserrat:Bold";
+  size: 3rem;
+  line-height: 1.5;
+  padding: 3% 15%;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+p {
+  font-family: "Oxygen", sans-serif;
+  size: 1rem;
+}
+
+em{
+font-family: "Oxygen", sans-serif;
+  size: 0.5rem;
+}
+
+.logos{
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+}
+
+.card-deck{
+    padding: 3% 15%;
+}
+
+.logo{
+    width: 20%;
+}
+
+#mail{
+    text-align: left;
+    padding-inline: 5%;
+}
+
+#icons{
+    padding:3% 10%;
+}
+
+.fa-5x{
+    margin: 30%;
+}
+
+.footer-links{
+    padding: 25% 0% 25%;
+    color: #f5f5f5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.person{
+    width: 30%;
+}
+
+#footer{
+    align-items: center;
+    color: #f5f5f5;
+}
+
+.client-img{
+    width:70%;
+}
