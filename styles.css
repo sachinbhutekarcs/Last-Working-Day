@@ -21,13 +21,6 @@ h1, h5{
   font-weight:bolder;
 }
 
-hr{
-  border: dotted grey 6px;
-  border-bottom: none;
-  width: 5%;
-  margin: 100px auto;
-}
-
 p {
   font-family: "Oxygen", sans-serif;
   size: 1rem;
@@ -53,8 +46,7 @@ em {
 }
 
 #mail {
-  padding-inline: 5%;
-  padding-bottom: 3%;
+  padding: 3% 5%; 
 }
 
 #icons {
@@ -114,4 +106,12 @@ em {
 
 #clients{
   background-image: url("clients.jpg");
+}
+
+.social{
+  padding-top: 5rem;
+}
+
+.social a{
+  color: white;
 }
