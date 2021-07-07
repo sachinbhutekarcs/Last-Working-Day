@@ -5,85 +5,25 @@ body {
   font-weight: bold;
 }
 
+/* Sections */
+
 #about-us{
   padding: 3% 14%;
 }
 .footer-section {
   background-color: #181b1f;
-  font: "Montserrat:Bold";
 }
 
-h1, h5{
-  font-family: "Montserrat", sans-serif;
-  size: 3rem;
-  line-height: 1.5;
-  padding: 3% 15%;
-  font-weight:bolder;
+#reviews{
+  margin: 4% 0 4%;
+  padding:0 14%;
+  background-image: url("testimonial-bg.jpg");
+  background-size: cover;
 }
 
-p {
-  font-family: "Oxygen", sans-serif;
-  size: 1rem;
-}
-
-em {
-  font-family: "Oxygen", sans-serif;
-  size: 0.5rem;
-}
-
-.logos {
-  margin: auto;
-  width: 50%;
-  padding: 2%;
-}
-
-.card-deck {
-  padding: 3% 15%;
-}
-
-.logo {
-  width: 20%;
-}
-
-#mail {
-  padding: 3% 5%; 
-}
-
-#icons {
-  padding: 3% 10%;
-  float: right;
-}
-
-
-
-.footer-links {
-  color: #f5f5f5;
-  position:relative;
-  top: 5rem;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after {
-  content: ">";
-  font-size: 55px;
-  color: black;
-}
-
-.carousel-control-prev-icon:after {
-  content: "<";
-  font-size: 55px;
-  color: black;
-}
-
-.person {
-  width: 30%;
+#clients{
+  background-image: url("clients.jpg");
+  background-size: cover;
 }
 
 #footer {
@@ -92,20 +32,42 @@ em {
   font-family: "Montserrat", sans-serif;
 }
 
+.card-deck {
+  padding: 3% 15%;
+}
+
+/* Heading & text */
+
+h1, h5{
+  size: 3rem;
+  line-height: 1.5;
+  padding: 3% 15%;
+  font-weight:bolder;
+}
+
+p, em {
+  font-family: "Oxygen", sans-serif;
+  size: 1rem;
+}
+
+/* Images*/
+
+.logos {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+}
+
 .client-img {
   width: 70%;
 }
 
-.nav-link {
-  color: black;
+#mail {
+  padding: 3% 5%; 
 }
 
-#reviews{
-  padding: 3% 14%;
-}
-
-#clients{
-  background-image: url("clients.jpg");
+.testimonail-img {
+  width: 30%;
 }
 
 .social{
@@ -116,10 +78,16 @@ em {
   color: white;
 }
 
-.navbar-brand{
-  color:black;
+.nav-link {
+  color: black;
 }
 
 .fa-2x {
   margin: 10px;
+}
+
+.footer-links {
+  color: #f5f5f5;
+  position:relative;
+  top: 5rem;
 }
