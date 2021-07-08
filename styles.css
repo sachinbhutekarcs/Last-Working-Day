@@ -17,12 +17,12 @@ body {
 #reviews{
   margin: 4% 0 4%;
   padding:0 14%;
-  background-image: url("testimonial-bg.jpg");
+  background-image: url("images/testimonial-bg.jpg");
   background-size: cover;
 }
 
 #clients{
-  background-image: url("clients.jpg");
+  background-image: url("images/clients.jpg");
   background-size: cover;
 }
 
