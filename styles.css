@@ -8,7 +8,7 @@ body {
 /* Sections */
 
 #about-us{
-  padding: 3% 14%;
+  padding: 3% 10%;
 }
 .footer-section {
   background-color: #181b1f;
@@ -38,11 +38,18 @@ body {
 
 /* Heading & text */
 
-h1, h5{
-  size: 3rem;
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   line-height: 1.5;
   padding: 3% 15%;
-  font-weight:bolder;
+}
+
+h5{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 3% 15%;
 }
 
 p, em {
