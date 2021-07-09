@@ -6,6 +6,9 @@ body {
 }
 
 /* Sections */
+.d-block{
+  min-height: 400px;
+}
 
 #about-us{
   padding: 3% 10%;
