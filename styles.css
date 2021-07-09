@@ -2,7 +2,7 @@ body {
   background-color: #fff5ee;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /* Sections */
@@ -39,6 +39,7 @@ body {
 /* Heading & text */
 
 h1{
+  font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.5;
@@ -54,7 +55,7 @@ h5{
 
 p, em {
   font-family: "Oxygen", sans-serif;
-  size: 1rem;
+  font-weight:bolder;
 }
 
 /* Images*/
