@@ -7,29 +7,27 @@ body {
 
 /* Sections */
 .d-block{
-  min-height: 400px;
+  min-height: 350px;
 }
 
 #about-us{
   padding: 3% 10%;
 }
-.footer-section {
-  background-color: #181b1f;
-}
 
 #reviews{
   margin: 4% 0 4%;
   padding:0 14%;
-  background-image: url("images/testimonial-bg.jpg");
+  background-image: url("../images/testimonial-bg.jpg");
   background-size: cover;
 }
 
 #clients{
-  background-image: url("images/clients.jpg");
+  background-image: url("../images/clients.jpg");
   background-size: cover;
 }
 
 #footer {
+  background-color: #181b1f;
   align-items: center;
   color: #f5f5f5;
   font-family: "Montserrat", sans-serif;
@@ -42,23 +40,22 @@ body {
 /* Heading & text */
 
 h1{
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   line-height: 1.5;
   padding: 3% 15%;
 }
 
 h5{
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.5;
-  padding: 3% 15%;
 }
 
 p, em {
   font-family: "Oxygen", sans-serif;
-  font-weight:bolder;
+  size: 2.5rem;
+  font-weight:900;
 }
 
 /* Images*/
@@ -81,7 +78,7 @@ p, em {
 }
 
 .social{
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 .social a{
@@ -100,4 +97,17 @@ p, em {
   color: #f5f5f5;
   position:relative;
   top: 5rem;
+}
+
+#copyright{
+  text-align: center;
+}
+
+.dropdown-menu{
+  background-color:#343a40;
+  text-align: center;
+}
+
+.dropdown-item{
+  color: rgba(255,255,255,.5);
 }

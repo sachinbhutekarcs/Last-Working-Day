@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome for Icons -->
     <script
@@ -43,18 +43,16 @@
       crossorigin="anonymous"
     ></script>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
       <section id="Navbar">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
           <a class="navbar-brand mr-auto" href="">
-            <img src="images/lwd-logo.png" alt="logo" class="d-inline-block align-top" style="width:80px; height:80px;"/>
+            <img src="images/lwd-logo.png" alt="logo" class="d-inline-block align-top" style="width:60px; height:60px;"/>
           </a>
           <button
             class="navbar-toggler"
@@ -75,8 +73,12 @@
               <li class="nav-item">
                 <a class="nav-link" href=""> About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""> For Employer</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> For Employer</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Sign In / Sign Up</a>
+                  <a class="dropdown-item" href="#">Pricing</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href=""> For Candidates</a>
@@ -163,15 +165,17 @@
       <section id="about-us">
         <div>
           <div>
-            <h1>About Last Working Day</h1>
-          </div>
+            <strong><h1>About Last Working Day</h1>
+            </div></strong>
           <div>
-            <p>
-              Last Working Day focusses on providing the opportunity to both the candidates (who are immediately available, have resigned & are serving the notice period or have lost their job in the pandemic, Covid-19) seeking for a better opportunity and to the employers who are in dire need of such talents for their organization and projects. Last Working Day helps in bridging the gap between the two by providing a platform with a pool of talented candidates and helping them join some of the most esteemed organisations. Last Working Day is a sector agnostic platform.
-            </p>
-            <p>
-              To avail, the best of our services, click on the suitable option below to register or log in with your existing credentials.
-            </p>
+            <strong>
+              <p>
+                Last Working Day focusses on providing the opportunity to both the candidates (who are immediately available, have resigned & are serving the notice period or have lost their job in the pandemic, Covid-19) seeking for a better opportunity and to the employers who are in dire need of such talents for their organization and projects. Last Working Day helps in bridging the gap between the two by providing a platform with a pool of talented candidates and helping them join some of the most esteemed organisations. Last Working Day is a sector agnostic platform.
+              </p>
+              <p>
+                To avail, the best of our services, click on the suitable option below to register or log in with your existing credentials.
+              </p>
+            </strong>
           </div>
         </div>
         <div class="card-deck">
@@ -302,9 +306,10 @@
     <!-- Footer -->
 
     <footer class="" id="footer">
-      <div class="row footer-section">
+      <div class="row">
         <div class="col-md-4" id="mail">
           <h5>We would love to hear from you!</h5>
+          <br>
           <form
             action="mailto:info@volibits.com"
             method="post"
@@ -396,8 +401,8 @@
             <img src="images/lwd-logo.png" width=200 height=200 alt=""/>
               
           </div>
-
       </div>
+      <p id="copyright">© Copyright 2021 Volibits</p>
     </footer>
   </body>
 </html
