@@ -30,6 +30,7 @@
     ></script>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles2.css" />
 
     <!-- Font Awesome for Icons -->
     <script
@@ -44,12 +45,8 @@
     ></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
-
-    <!-- favicons -->
-    <link rel="icon" href="images/favicon.ico">
-    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
       <section id="Navbar">
@@ -72,20 +69,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html"> Home</a>
+                <a class="nav-link" href=""> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-us"> About Us</a>
+                <a class="nav-link" href=""> About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> For Employer</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="employer-reg.html">Sign In / Sign Up</a>
-                  <a class="dropdown-item" href="pricing.html">Pricing</a>
+                  <a class="dropdown-item" href="#">Sign In / Sign Up</a>
+                  <a class="dropdown-item" href="#">Pricing</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="candidate-reg.html"> For Candidates</a>
+                <a class="nav-link" href=""> For Candidates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href=""> FAQ</a>
@@ -94,7 +91,7 @@
                 <a class="nav-link" href=""> Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer"> Contact us</a>
+                <a class="nav-link" href=""> Contact us</a>
               </li>
             </ul>
           </div>
@@ -126,7 +123,7 @@
               />
             </div>
             <div class="carousel-item">
-              <a href="candidate-reg.html">
+              <a href="">
                 <img
                   class="d-block w-100"
                   src="images/lwd-candidates.jpg"
@@ -135,7 +132,7 @@
               </a>
             </div>
             <div class="carousel-item">
-              <a href="employer-reg.html">
+              <a href="">
                 <img
                   class="d-block w-100"
                   src="images/lwd-employers.jpg"
@@ -165,44 +162,46 @@
         </div>
       </section>
 
-      <!-- About us -->
-      <section id="about-us">
-        <div>
-          <div>
-            <strong><h1>About Last Working Day</h1></strong>
-          </div>
-          <div>
-            <strong>
-              <p>
-                Last Working Day focusses on providing the opportunity to both the candidates (who are immediately available, have resigned & are serving the notice period or have lost their job in the pandemic, Covid-19) seeking for a better opportunity and to the employers who are in dire need of such talents for their organization and projects. Last Working Day helps in bridging the gap between the two by providing a platform with a pool of talented candidates and helping them join some of the most esteemed organisations. Last Working Day is a sector agnostic platform.
-              </p>
-              <p>
-                To avail, the best of our services, click on the suitable option below to register or log in with your existing credentials.
-              </p>
-            </strong>
-          </div>
-        </div>
-        <div class="card-deck">
-          <div class="card">
-            <a href="candidate-reg.html">
-              <img
-              class="card-img-top"
-              src="images/candidate-lwd.jpg"
-              alt="Candidate Registration or Login"
-            />
-            </a>
-          </div>
-          <div class="card">
-            <a href="employer-reg.html">
-              <img
-              class="card-img-top"
-              src="images/employer-lwd.jpg"
-              alt="Employer Registration or Login"
-            />
-            </a>
-          </div>
-        </div>
-      </section>
+      <!-- Login/Signup -->
+        <section id="login">
+          
+          <div class="container">
+            <h1>Begin Your Jobhunt</h1>
+              <form action="/action_page.php">
+                <div class="row">
+                  <div class="vl">
+                    <span class="vl-innertext">or</span>
+                  </div>
+
+                  <div class="col">
+                    <div class="hide-md-lg">
+                      <p>Or sign in manually:</p>
+                    </div>
+            
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="Submit" class="btn btn-primary">Login</button>
+                    <a href=""><button class="btn btn-success">Forget Password?</button></a>
+
+                  </div>
+            
+                  <div class="col">
+                    <a href="#" class=" resume btn">
+                      <i class="far fa-file"></i> Signup with Resume
+                      </a>
+                    <a href="#" class="linkedin btn">
+                      <i class="fab fa-linkedin-in"></i> Signup with LinkedIn
+                      </a>
+                    <a href="#" class="google btn">
+                      <i class="fa fa-google fa-fw"></i> Login with Google+
+                    </a>
+                    <button type="Submit" class="btn btn-success">Signup</button>
+                  </div>
+              </div>
+              </form>
+            </div>
+      
+        </section>
 
       <!-- Clients -->
       <section id="clients">
@@ -357,10 +356,10 @@
                 <a class="footer-links" href=""> About Us</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href="candidate-reg.html"> For Employer</a>
+                <a class="footer-links" href=""> For Employer</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href="employer-reg.html"> For Candidates</a>
+                <a class="footer-links" href=""> For Candidates</a>
               </div>
             </div>
             <br>
@@ -406,7 +405,7 @@
             <br>
             <br>
 
-            <a href="index.html"><img src="images/lwd-logo.png" width=200 height=200 alt=""/></a>
+            <img src="images/lwd-logo.png" width=200 height=200 alt=""/>
               
           </div>
       </div>

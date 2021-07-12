@@ -6,22 +6,22 @@ body {
 }
 
 /* Sections */
-.d-block{
+.d-block {
   min-height: 350px;
 }
 
-#about-us{
+#about-us {
   padding: 3% 10%;
 }
 
-#reviews{
+#reviews {
   margin: 4% 0 4%;
-  padding:0 14%;
+  padding: 0 14%;
   background-image: url("../images/testimonial-bg.jpg");
   background-size: cover;
 }
 
-#clients{
+#clients {
   background-image: url("../images/clients.jpg");
   background-size: cover;
 }
@@ -39,23 +39,24 @@ body {
 
 /* Heading & text */
 
-h1{
+h1 {
   font-size: 2.7rem;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   padding: 3% 15%;
 }
 
-h5{
+h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   line-height: 1.5;
 }
 
-p, em {
+p,
+em {
   font-family: "Oxygen", sans-serif;
   size: 2.5rem;
-  font-weight:900;
+  font-weight: 900;
 }
 
 /* Images*/
@@ -70,18 +71,18 @@ p, em {
 }
 
 #mail {
-  padding: 3% 5%; 
+  padding: 3% 5%;
 }
 
 .testimonail-img {
   width: 30%;
 }
 
-.social{
+.social {
   padding-top: 7rem;
 }
 
-.social a{
+.social a {
   color: white;
 }
 
@@ -95,19 +96,36 @@ p, em {
 
 .footer-links {
   color: #f5f5f5;
-  position:relative;
+  position: relative;
   top: 5rem;
 }
 
-#copyright{
+#copyright {
   text-align: center;
 }
 
-.dropdown-menu{
-  background-color:#343a40;
+.dropdown-menu {
+  background-color: #343a40;
   text-align: center;
 }
 
-.dropdown-item{
-  color: rgba(255,255,255,.5);
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Pricing Section */
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing {
+  padding: 65px;
+}
+
+.pricing-column {
+  margin: 3% auto;
+}
+
+.card-header {
+  background-color: grey;
 }
