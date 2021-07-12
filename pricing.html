@@ -44,8 +44,12 @@
     ></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <!-- favicons -->
+    <link rel="icon" href="images/favicon.ico">
+    
   </head>
   <body>
       <section id="Navbar">
@@ -68,20 +72,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href=""> Home</a>
+                <a class="nav-link" href="index.html"> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> About Us</a>
+                <a class="nav-link" href="#about-us"> About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> For Employer</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Sign In / Sign Up</a>
-                  <a class="dropdown-item" href="#">Pricing</a>
+                  <a class="dropdown-item" href="employer-reg.html">Sign In / Sign Up</a>
+                  <a class="dropdown-item" href="pricing.html">Pricing</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> For Candidates</a>
+                <a class="nav-link" href="candidate-reg.html"> For Candidates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href=""> FAQ</a>
@@ -90,7 +94,7 @@
                 <a class="nav-link" href=""> Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> Contact us</a>
+                <a class="nav-link" href="#footer"> Contact us</a>
               </li>
             </ul>
           </div>
@@ -122,7 +126,7 @@
               />
             </div>
             <div class="carousel-item">
-              <a href="">
+              <a href="candidate-reg.html">
                 <img
                   class="d-block w-100"
                   src="images/lwd-candidates.jpg"
@@ -131,7 +135,7 @@
               </a>
             </div>
             <div class="carousel-item">
-              <a href="">
+              <a href="employer-reg.html">
                 <img
                   class="d-block w-100"
                   src="images/lwd-employers.jpg"
@@ -160,71 +164,70 @@
           </div>
         </div>
       </section>
+<!-- Pricing -->
 
-      <!-- Pricing -->
-
-      <section id="pricing">
-        <h2 class="price-text">A Plan for Every Employer's Needs</h2>
-        <p>Simple and affordable price plans</p>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-column card">
-              <div class="card-header">
-                <h3>Plan 1</h3>
-              </div>
-              <div class="card-body">
-                <h2 class="price-text">Free</h2>
-                <p>Unlimited Website Usage</p>
-                <p>X Credits</p>
-                <p>Y profile Views</p>
-                <p>Z Direct Messages</p>
-                <button
-                  class="btn btn-lg btn-dark col-lg-12"
-                  type="button"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
+<section id="pricing">
+    <h2 class="price-text">A Plan for Every Employer's Needs</h2>
+    <p>Simple and affordable price plans</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-column card">
+          <div class="card-header">
+            <h3>Plan 1</h3>
           </div>
-  
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-column card">
-              <div class="card-header">
-                <h3>Plan 2</h3>
-              </div>
-              <div class="card-body">
-                <h2 class="price-text">$P / mo</h2>
-                <p>Unlimited Website Usage</p>
-                <p>X Credits</p>
-                <p>Y profile Views</p>
-                <p>Z Direct Messages</p>
-                <button class="btn btn-dark btn-lg col-lg-12" type="button">
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col-lg-4">
-            <div class="pricing-column card">
-              <div class="card-header">
-                <h3>Plan 3</h3>
-              </div>
-              <div class="card-body">
-                <h2 class="price-text">$Q / Year</h2>
-                <p>Unlimited Website Usage</p>
-                <p>X Credits</p>
-                <p>Y profile Views</p>
-                <p>Z Direct Messages</p>
-                <button class="btn btn-dark btn-lg col-lg-12" type="button">
-                  Sign Up
-                </button>
-              </div>
-            </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>Unlimited Website Usage</p>
+            <p>X Credits</p>
+            <p>Y profile Views</p>
+            <p>Z Direct Messages</p>
+            <button
+              class="btn btn-lg btn-dark col-lg-12"
+              type="button"
+            >
+              Sign Up
+            </button>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-column card">
+          <div class="card-header">
+            <h3>Plan 2</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$P / mo</h2>
+            <p>Unlimited Website Usage</p>
+            <p>X Credits</p>
+            <p>Y profile Views</p>
+            <p>Z Direct Messages</p>
+            <button class="btn btn-dark btn-lg col-lg-12" type="button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="pricing-column card">
+          <div class="card-header">
+            <h3>Plan 3</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$Q / Year</h2>
+            <p>Unlimited Website Usage</p>
+            <p>X Credits</p>
+            <p>Y profile Views</p>
+            <p>Z Direct Messages</p>
+            <button class="btn btn-dark btn-lg col-lg-12" type="button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
       <!-- Clients -->
       <section id="clients">
@@ -379,10 +382,10 @@
                 <a class="footer-links" href=""> About Us</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href=""> For Employer</a>
+                <a class="footer-links" href="candidate-reg.html"> For Employer</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href=""> For Candidates</a>
+                <a class="footer-links" href="employer-reg.html"> For Candidates</a>
               </div>
             </div>
             <br>
@@ -428,7 +431,7 @@
             <br>
             <br>
 
-            <img src="images/lwd-logo.png" width=200 height=200 alt=""/>
+            <a href="index.html"><img src="images/lwd-logo.png" width=200 height=200 alt=""/></a>
               
           </div>
       </div>

@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles2.css" />
 
+
     <!-- Font Awesome for Icons -->
     <script
       src="https://kit.fontawesome.com/49362538be.js"
@@ -45,8 +46,12 @@
     ></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <!-- favicons -->
+    <link rel="icon" href="images/favicon.ico">
+    
   </head>
   <body>
       <section id="Navbar">
@@ -69,20 +74,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href=""> Home</a>
+                <a class="nav-link" href="index.html"> Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> About Us</a>
+                <a class="nav-link" href="#about-us"> About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> For Employer</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Sign In / Sign Up</a>
-                  <a class="dropdown-item" href="#">Pricing</a>
+                  <a class="dropdown-item" href="employer-reg.html">Sign In / Sign Up</a>
+                  <a class="dropdown-item" href="pricing.html">Pricing</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> For Candidates</a>
+                <a class="nav-link" href="candidate-reg.html"> For Candidates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href=""> FAQ</a>
@@ -91,7 +96,7 @@
                 <a class="nav-link" href=""> Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=""> Contact us</a>
+                <a class="nav-link" href="#footer"> Contact us</a>
               </li>
             </ul>
           </div>
@@ -123,7 +128,7 @@
               />
             </div>
             <div class="carousel-item">
-              <a href="">
+              <a href="candidate-reg.html">
                 <img
                   class="d-block w-100"
                   src="images/lwd-candidates.jpg"
@@ -132,7 +137,7 @@
               </a>
             </div>
             <div class="carousel-item">
-              <a href="">
+              <a href="employer-reg.html">
                 <img
                   class="d-block w-100"
                   src="images/lwd-employers.jpg"
@@ -163,40 +168,40 @@
       </section>
 
       <!-- Login/Signup -->
-        <section id="login">
+      <section id="login">
           
-          <div class="container">
-            <h1>Start your search for perfect candidate</h1>
-              <form action="/action_page.php">
-                <div class="row">
-                  <div class="vl">
-                    <span class="vl-innertext">or</span>
-                  </div>
+        <div class="container">
+          <h1>Start your search for perfect candidate</h1>
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="vl">
+                  <span class="vl-innertext">or</span>
+                </div>
 
-                  <div class="col">
-                    <div class="hide-md-lg">
-                      <p>Or sign in manually:</p>
-                    </div>
-            
-                    <input type="text" name="username" placeholder="Username" required>
-                    <input type="password" name="password" placeholder="Password" required>
-                    <button type="Submit" class="btn btn-primary">Login</button>
-                    <a href=""><button class="btn btn-success">Forget Password?</button></a>
+                <div class="col">
+                  <div class="hide-md-lg">
+                    <p>Or sign in manually:</p>
+                  </div>
+          
+                  <input type="text" name="username" placeholder="Username" required>
+                  <input type="password" name="password" placeholder="Password" required>
+                  <button type="Submit" class="btn btn-primary">Login</button>
+                  <a href=""><button class="btn btn-success">Forget Password?</button></a>
 
-                  </div>
-            
-                  <div class="col">
-                    <input type="text" name="username" placeholder="Full Name" required>
-                    <input type="text" name="username" placeholder="Official Email ID" required>
-                    <input type="password" name="password" placeholder="Password" required>
-                    <input type="password" name="password" placeholder="Confirm Password" required>
-                    <button type="Submit" class="btn btn-success">Signup</button>
-                  </div>
-              </div>
-              </form>
+                </div>
+          
+                <div class="col">
+                  <input type="text" name="username" placeholder="Full Name" required>
+                  <input type="text" name="username" placeholder="Official Email ID" required>
+                  <input type="password" name="password" placeholder="Password" required>
+                  <input type="password" name="password" placeholder="Confirm Password" required>
+                  <button type="Submit" class="btn btn-success">Signup</button>
+                </div>
             </div>
-      
-        </section>
+            </form>
+          </div>
+    
+      </section>
 
       <!-- Clients -->
       <section id="clients">
@@ -351,10 +356,10 @@
                 <a class="footer-links" href=""> About Us</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href=""> For Employer</a>
+                <a class="footer-links" href="candidate-reg.html"> For Employer</a>
               </div>
               <div class="col-sm-4">
-                <a class="footer-links" href=""> For Candidates</a>
+                <a class="footer-links" href="employer-reg.html"> For Candidates</a>
               </div>
             </div>
             <br>
@@ -400,7 +405,7 @@
             <br>
             <br>
 
-            <img src="images/lwd-logo.png" width=200 height=200 alt=""/>
+            <a href="index.html"><img src="images/lwd-logo.png" width=200 height=200 alt=""/></a>
               
           </div>
       </div>
