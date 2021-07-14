@@ -15,7 +15,7 @@ body {
 
 /* style inputs and link buttons */
 input,
-.btn {
+#login .btn {
   width: 100%;
   padding: 12px;
   border: none;
@@ -64,7 +64,7 @@ input[type="submit"]:hover {
   float: left;
   width: 50%;
   margin: auto;
-  padding: 0 50px;
+  padding: 0 20px;
   margin-top: 6px;
 }
 
@@ -89,8 +89,6 @@ input[type="submit"]:hover {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
   border-radius: 50%;
   padding: 8px 10px;
 }
@@ -100,7 +98,7 @@ input[type="submit"]:hover {
   display: none;
 }
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
   .col {
     width: 100%;
     margin-top: 0;
