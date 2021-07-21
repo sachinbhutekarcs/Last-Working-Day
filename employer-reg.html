@@ -29,10 +29,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles2.css" />
-
 
     <!-- Font Awesome for Icons -->
     <script
@@ -46,204 +45,252 @@
       crossorigin="anonymous"
     ></script>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oxygen:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- favicons -->
-    <link rel="icon" href="images/favicon.ico">
-    
+    <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
-      <section id="Navbar">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <a class="navbar-brand mr-auto" href="">
-            <img src="images/lwd-logo.png" alt="logo" class="d-inline-block align-top" style="width:60px; height:60px;"/>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html"> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about-us"> About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> For Employer</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="employer-reg.html">Sign In / Sign Up</a>
-                  <a class="dropdown-item" href="pricing.html">Pricing</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="candidate-reg.html"> For Candidates</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""> FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""> Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer"> Contact us</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+    <section id="Navbar">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mr-auto" href="">
+          <img
+            src="images/lwd-logo.png"
+            alt="logo"
+            class="d-inline-block align-top"
+            style="width: 60px; height: 60px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us"> About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                For Employer</a
+              >
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="employer-reg.html"
+                  >Sign In / Sign Up</a
+                >
+                <a class="dropdown-item" href="pricing.html">Pricing</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="candidate-reg.html"> For Candidates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""> FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""> Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"> Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
 
-      
-
-      <!-- Login/Signup -->
-      <section id="login">
-          
-        <div class="container">
-          <h1>Start your search for perfect candidate</h1>
-            <form action="/action_page.php">
-              <div class="row">
-                <div class="vl">
-                  <span class="vl-innertext">Or</span>
-                </div>
-
-                <div class="col-md-6">
-                  <input type="text" name="username" placeholder="Username" required>
-                  <input type="password" name="password" placeholder="Password" required>
-                  <button type="Submit" class="btn btn-primary">Login</button>
-                  <a href=""><button class="btn btn-success">Forget Password?</button></a>
-
-                  <div class="hide-md-lg">
-                    <p>Or Sign Up</p>
-                  </div>
-
-                </div>
-          
-                <div class="col-md-6">
-                  <input type="text" name="username" placeholder="Full Name" required>
-                  <input type="text" name="username" placeholder="Official Email ID" required>
-                  <input type="password" name="password" placeholder="Password" required>
-                  <input type="password" name="password" placeholder="Confirm Password" required>
-                  <button type="Submit" class="btn btn-success">Signup</button>
-                </div>
+    <!-- Login/Signup -->
+    <section id="login">
+      <div class="container">
+        <h1>Start your search for perfect candidate</h1>
+        <form action="">
+          <div class="row">
+            <div class="vl">
+              <span class="vl-innertext">Or</span>
             </div>
-            </form>
+
+            <div class="col-md-6">
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <button type="Submit" class="btn btn-primary">Login</button>
+              <a href=""
+                ><button class="btn btn-success">Forget Password?</button></a
+              >
+
+              <div class="hide-md-lg">
+                <p>Or Sign Up</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <input
+                type="text"
+                name="username"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Official Email ID"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Confirm Password"
+                required
+              />
+              <button type="Submit" class="btn btn-success">Signup</button>
+            </div>
           </div>
-    
-      </section>
+        </form>
+      </div>
+    </section>
 
     <!-- Footer -->
 
-            <footer class="" id="footer">
-              <div class="row">
-                <div class="col-md-4" id="mail">
-                  <h5>We would love to hear from you!</h5>
-                  <br />
-                  <form
-                    action="mailto:info@volibits.com"
-                    method="post"
-                    enctype="text/plain"
-                  >
-                    <input
-                      type="text"
-                      id="nameFooter"
-                      name="nameFooter"
-                      class="form-control textbox margin2"
-                      placeholder="Enter your name"
-                    />
-                    <br />
-                    <input
-                      type="text"
-                      id="emailFooter"
-                      name="emailFooter"
-                      class="form-control textbox margin2"
-                      placeholder="Enter your Email"
-                    />
-                    <br />
-                    <textarea
-                      name="messageFooter"
-                      class="form-control textbox margin2"
-                      id="messageFooter"
-                      placeholder="Enter your message"
-                      style="height: 100px"
-                    ></textarea>
-                    <br />
-                    <button class="btn btn-outline-light btn-block" type="Submit">
-                      Submit
-                    </button>
-                  </form>
-                </div>
-                <div class="col-md-4">
-                  <div class="footer-links">
-                    <div class="row align-items-center">
-                      <div class="col-4">
-                        <a class="" href="">About Us</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="candidate-reg.html">For Employer</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="employer-reg.html">For Candidates</a>
-                      </div>
-                    </div>
-                    <br />
-                    <div class="row align-items-center">
-                      <div class="col-4">
-                        <a class="" href="">FAQ</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="">Blog</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="">Contact us</a>
-                      </div>
-                    </div>
-                    <br />
-                    <div class="row align-items-center">
-                      <div class="col-4">
-                        <a class="" href="">Cookie Policy</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="">Privacy Policy</a>
-                      </div>
-                      <div class="col-4">
-                        <a class="" href="">Terms of Use</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-md-4 social">
-                  <h5>Follow us & Spread the Word</h5>
-        
-                  <a href=""><i class="fab fa-twitter fa-2x"></i></a>
-        
-                  <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
-        
-                  <a href=""><i class="fab fa-instagram fa-2x"></i></a>
-        
-                  <a href=""><i class="fab fa-linkedin-in fa-2x"></i></a>
-        
-                  <a href=""><i class="fab fa-youtube fa-2x"></i></a>
-                  <br />
-                  <br />
-        
-                  <a href="index.html"
-                    ><img src="images/lwd-logo.png" width="200" height="200" alt=""
-                  /></a>
-                </div>
+    <footer class="" id="footer">
+      <div class="row">
+        <div class="col-md-4" id="mail">
+          <h6>We would love to hear from you!</h6>
+          <br />
+          <form
+            action="mailto:info@volibits.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input
+              type="text"
+              id="nameFooter"
+              name="nameFooter"
+              class="form-control textbox margin2"
+              placeholder="Enter your name"
+            />
+            <br />
+            <input
+              type="text"
+              id="emailFooter"
+              name="emailFooter"
+              class="form-control textbox margin2"
+              placeholder="Enter your Email"
+            />
+            <br />
+            <textarea
+              name="messageFooter"
+              class="form-control textbox margin2"
+              id="messageFooter"
+              placeholder="Enter your message"
+              style="height: 100px"
+            ></textarea>
+            <br />
+            <button class="btn btn-outline-light btn-block" type="Submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-links">
+            <div class="row">
+              <div class="col-4">
+                <a class="" href="">About Us</a>
               </div>
-              <p id="copyright">© Copyright 2021 Volibits</p>
-            </footer>
+              <div class="col-4">
+                <a class="" href="candidate-reg.html">For Employer</a>
+              </div>
+              <div class="col-4">
+                <a class="" href="employer-reg.html">For Candidates</a>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-4">
+                <a class="" href="">FAQ</a>
+              </div>
+              <div class="col-4">
+                <a class="" href="">Blog</a>
+              </div>
+              <div class="col-4">
+                <a class="" href="">Contact us</a>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-4">
+                <a class="" href="">Cookie Policy</a>
+              </div>
+              <div class="col-4">
+                <a class="" href="">Privacy Policy</a>
+              </div>
+              <div class="col-4">
+                <a class="" href="">Terms of Use</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 social">
+          <h6>Follow us & Spread the Word</h6>
+
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+
+          <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+
+          <a href=""><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+          <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+          <br />
+          <br />
+
+          <a href="index.html"
+            ><img src="images/lwd-logo.png" width="200" height="200" alt=""
+          /></a>
+        </div>
+      </div>
+      <p id="copyright">© Copyright 2021 Volibits</p>
+    </footer>
   </body>
-</html
+</html>
